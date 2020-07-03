@@ -425,7 +425,12 @@
 
     <div class="backdrop is-hidden" data-modal>
       <form class="form modal">
-        <button data-modal-close class="closing-button"></button>
+        <button data-modal-close class="closing-button">
+          <svg class="closing-icon" width="18px" height="18px">
+            <use href="./images/form-sprite.svg#close"></use>
+          </svg>
+        </button>
+
         <!-- <label>Имя<input type="text" name="user-name" /></label> -->
         <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
 
@@ -433,7 +438,7 @@
           <input type="text" class="form-input" name="name" placeholder=" " />
           <span class="form-label">Имя</span>
           <span class="form-icon">
-            <svg class="" width="12px" height="12px">
+            <svg class="" width="18px" height="18px">
               <use href="./images/form-sprite.svg#person"></use>
             </svg>
           </span>
@@ -443,7 +448,7 @@
           <input type="tel" class="form-input" name="tel" placeholder=" " />
           <span class="form-label">Телефон</span>
           <span class="form-icon">
-            <svg class="phone-form" width="13px" height="13px">
+            <svg class="phone-form" width="18px" height="18px">
               <use href="./images/form-sprite.svg#phone-form"></use>
             </svg>
           </span>
@@ -453,7 +458,7 @@
           <input type="tel" class="form-input" name="tel" placeholder=" " />
           <span class="form-label">Почта</span>
           <span class="form-icon">
-            <svg class="email-form" width="15px" height="12px">
+            <svg class="email-form" width="18px" height="18px">
               <use href="./images/form-sprite.svg#email-form"></use>
             </svg>
           </span>
